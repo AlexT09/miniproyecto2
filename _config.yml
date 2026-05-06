@@ -1,0 +1,30 @@
+# ============================================================
+#  Jupyter Book — Heart Disease MLOps
+# ============================================================
+title: Heart Disease MLOps — Miniproyecto 2
+author: Miniproyecto 2
+logo: ""
+
+# ── Ejecución de notebooks ──────────────────────────────────
+execute:
+  execute_notebooks: "off"   # los notebooks ya están ejecutados
+  timeout: 300
+
+# ── HTML ────────────────────────────────────────────────────
+html:
+  use_issues_button: false
+  use_repository_button: false
+  use_edit_page_button: false
+  home_page_in_navbar: true
+
+# ── Exportaciones extra ─────────────────────────────────────
+latex:
+  latex_documents:
+    targetname: heart_mlops.tex
+
+# ── Tema ────────────────────────────────────────────────────
+sphinx:
+  config:
+    html_theme: "pydata_sphinx_theme"
+    html_theme_options:
+      navigation_depth: 3

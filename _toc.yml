@@ -1,0 +1,7 @@
+format: jb-book
+root: intro
+chapters:
+  - file: notebooks/1_model_leakage_demo
+    title: "Etapa 1 — EDA y Data Leakage"
+  - file: notebooks/2_model_pipeline_cv
+    title: "Etapa 2 — Modelo Final y Exportación"
